@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-cream: #fff8f0;
+	--color-pink: #f7a6b8;
+	--color-berry: #e94f7c;
+	--color-chocolate: #3a2118;
+	--color-vanilla: #fffdf8;
+	--color-pistachio: #bfd8a8;
+	--color-mango: #ffc857;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background: var(--cream);
+	color: var(--chocolate);
+	font-family: Arial, sans-serif;
+}
