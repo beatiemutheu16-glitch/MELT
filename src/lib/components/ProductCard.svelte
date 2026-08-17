@@ -11,7 +11,7 @@
 		cardBackground?: string;
 	} = $props();
 </script>
-<div class={`overflow-hidden rounded-3xl ${cardBackground} shadow-sm`}>
+<div class={`overflow-hidden rounded-3xl ${cardBackground} shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-lg`}>
 	<img
 		src={item.image}
 		alt={item.name}

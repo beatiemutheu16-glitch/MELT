@@ -1,3 +1,6 @@
+<script lang="ts">
+	import Button from '$lib/components/Button.svelte';
+</script>
 <svelte:head>
 	<title>Our Story | Melt</title>
 	<meta
@@ -186,4 +189,29 @@
 	</div>
 
 </div>
+</section>
+<section class="bg-cream px-6 py-20">
+	<div class="mx-auto max-w-3xl text-center">
+
+		<p class="font-semibold uppercase tracking-widest text-berry">
+			A Little Something Sweet
+		</p>
+
+		<h2 class="mt-4 text-4xl font-bold leading-tight text-chocolate md:text-5xl">
+			Ready for something
+			<span class="text-berry">sweet?</span>
+		</h2>
+
+		<p class="mx-auto mt-5 max-w-xl text-lg leading-8 text-chocolate/70">
+			Explore our menu and find your next favorite treat.
+		</p>
+
+		<div class="mt-8">
+			<Button
+				href="/menu"
+				text="Explore Our Menu"
+			/>
+		</div>
+
+	</div>
 </section>

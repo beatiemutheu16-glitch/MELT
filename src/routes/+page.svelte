@@ -4,6 +4,7 @@
 	import { milkshakes } from '$lib/data/milkshakes';
 	import { cakes } from '$lib/data/cakes';
 	import { desserts } from '$lib/data/desserts';
+	import ProductCard from '$lib/components/ProductCard.svelte';
 </script>
 
 <section class="bg-cream">
