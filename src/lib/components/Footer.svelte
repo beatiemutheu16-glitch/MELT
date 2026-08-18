@@ -16,9 +16,8 @@
 
 			<div class="mt-4 flex flex-col gap-3 text-sm">
 				<a href="/" class="transition-colors hover:text-pink">Home</a>
-				<a href="/ice-cream" class="transition-colors hover:text-pink">Ice Cream</a>
-				<a href="/milkshakes" class="transition-colors hover:text-pink">Milkshakes</a>
-				<a href="/cakes" class="transition-colors hover:text-pink">Cakes</a>
+				<a href="/menu" class="transition-colors hover:text-pink">Menu</a>
+				
 			</div>
 		</div>
 

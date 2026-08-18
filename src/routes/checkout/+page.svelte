@@ -12,8 +12,6 @@
 
 <div class="min-h-screen bg-pink px-6 py-12">
     
-
-
     <!-- Checkout card -->
     <div class="mx-auto max-w-2xl rounded-3xl bg-vanilla p-8 shadow-md">
     <a
@@ -102,7 +100,7 @@
                     {item.name}
                 </p>       
               <p class="text-sm text-chocolate/70">
-                    KSh {item.price}
+                    KSh {item.price * item.quantity}
                 </p>           
             
 
@@ -114,7 +112,7 @@
     </span>
 
     <span class="font-semibold text-chocolate">
-        KSh {$cart.reduce((total, item) => total + item.price, 0)}
+        KSh {$cart.reduce((total, item) => total + (item.price * item.quantity), 0)}
     </span>
 </div>
 <div class="mt-3 flex items-center justify-between">
@@ -133,7 +131,7 @@
     </span>
 
     <span class="text-lg font-bold text-chocolate">
-        KSh {$cart.reduce((total, item) => total + item.price, 0) + 200}
+        KSh {$cart.reduce((total, item) => total + (item.price * item.quantity), 0) + 200}
     </span>
 </div>
 <div class="justify-center flex">

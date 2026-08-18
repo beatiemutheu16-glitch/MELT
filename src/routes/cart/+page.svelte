@@ -53,7 +53,7 @@
 		{:else}
 			<div class="mt-10  space-y-5">
 		{#each $cart as item}
-			<div class="flex w-full items-center gap-5 rounded-3xl bg-vanilla p-4 shadow-sm">
+			<div class="flex w-full flex-col items-center gap-5 rounded-3xl bg-vanilla p-4 shadow-sm sm:flex-row sm:items-center sm:gap-5">
 
 				<img
 					src={item.image}
